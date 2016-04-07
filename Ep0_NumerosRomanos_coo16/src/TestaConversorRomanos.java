@@ -7,14 +7,14 @@ import org.junit.Test;
 public class TestaConversorRomanos {
 
 	@Test
-	public void testeConverteIparaUm() {
+	public void converte_I_para_1() {
 		
 		int resultado = Conversor.deRomanoParaArabico("I");
 		int resultadoEsperado = 1;
 		assertEquals(resultadoEsperado, resultado);
 	}
 	@Test
-	public void testeConverteUmparaI() {
+	public void converte_1_para_I() {
 		
 		String resultado = Conversor.deArabicoParaRomano(1);
 		String resultadoEsperado = "I";
@@ -22,14 +22,14 @@ public class TestaConversorRomanos {
 	}
 	
 	@Test
-	public void testeConverteIIparaDois() {
+	public void converte_II_para_2() {
 		
 		int resultado = Conversor.deRomanoParaArabico("II");
 		int resultadoEsperado = 2;
 		assertEquals(resultadoEsperado, resultado);
 	}
 	@Test
-	public void testeConverteDoisparaII() {
+	public void converte_2_para_II() {
 		
 		String resultado = Conversor.deArabicoParaRomano(2);
 		String resultadoEsperado = "II";
