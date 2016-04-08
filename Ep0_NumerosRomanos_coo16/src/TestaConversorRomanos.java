@@ -132,4 +132,174 @@ public class TestaConversorRomanos {
 		assertEquals(resultadoEsperado, resultado);
 	}
 
+	
+	@Test
+	public void converte_IX_para_9() {
+		
+		String romano = "IX";
+		int resultadoEsperado = 9;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_9_para_IX() {
+		
+		int arabico =9;
+		String resultadoEsperado = "IX";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_X_para_10() {
+		
+		String romano = "X";
+		int resultadoEsperado = 10;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_10_para_X() {
+		
+		int arabico =10;
+		String resultadoEsperado = "X";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_XI_para_11() {
+		
+		String romano = "XI";
+		int resultadoEsperado = 11;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_11_para_XI() {
+		
+		int arabico =11;
+		String resultadoEsperado = "XI";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_XIV_para_14() {
+		
+		String romano = "XIV";
+		int resultadoEsperado = 14;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_14_para_XIV() {
+		
+		int arabico =14;
+		String resultadoEsperado = "XIV";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_XV_para_15() {
+		
+		String romano = "XV";
+		int resultadoEsperado = 15;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_15_para_XV() {
+		
+		int arabico =15;
+		String resultadoEsperado = "XV";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_XVI_para_16() {
+		
+		String romano = "XVI";
+		int resultadoEsperado = 16;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_16_para_XVI() {
+		
+		int arabico =16;
+		String resultadoEsperado = "XVI";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_XIX_para_19() {
+		
+		String romano = "XIX";
+		int resultadoEsperado = 19;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_19_para_XIX() {
+		
+		int arabico =19;
+		String resultadoEsperado = "XIX";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_XX_para_20() {
+		
+		String romano = "XX";
+		int resultadoEsperado = 20;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_20_para_XX() {
+		
+		int arabico =20;
+		String resultadoEsperado = "XX";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_XXX_para_30() {
+		
+		String romano = "XXX";
+		int resultadoEsperado = 30;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_30_para_XXX() {
+		
+		int arabico =30;
+		String resultadoEsperado = "XXX";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
 }
