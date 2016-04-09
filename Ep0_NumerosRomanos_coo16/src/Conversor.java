@@ -1,7 +1,7 @@
 
 public class Conversor {
 
-	public static String [] ordemRomanos ={"X","IX","V","IV","I"};
+	public static String [] ordemRomanos ={"C","XC","L","XL","X","IX","V","IV","I"};
 
 	public static int deRomanoParaArabico(String numeroRomano){
 		int arabico =0;
@@ -35,7 +35,7 @@ public class Conversor {
 				 * pegar maior valor possivel para subtrair
 				 */
 		 	
-			System.out.println("arabico: "+numeroArabico);
+//			System.out.println("arabico: "+numeroArabico);
 		 	while(numeroArabico>0){
 		 		int i=0;
 		 		while(i<ordemRomanos.length){
@@ -49,7 +49,7 @@ public class Conversor {
 		 			}
 					
 					
-					System.out.println(i+": r ="+r+" nConvertido="+nConvertido+" romano="+romano);
+//					System.out.println(i+": r ="+r+" nConvertido="+nConvertido+" romano="+romano);
 		 			if(numeroArabico==0)
 		 				break;
 //		 			if(nConvertido!=numeroArabico)
@@ -61,16 +61,7 @@ public class Conversor {
 		 return romano;
 	 }
 	
-	 private static String converteNumeroLetraRomana(int n){
-			String r ="";
-			
-			switch(n){
-			case 1:{ return "I";}
-			case 4:{return "IV";}
-			default: {return r;}
-			}
-			
-		}
+	
 	 
 	 
 	private static int converteLetraRomanaNumero(String r){
@@ -79,6 +70,8 @@ public class Conversor {
 		if(r.equals("I")) return 1;
 		else if(r.equals("V")) return 5;
 		else if(r.equals("X")) return 10;
+		else if(r.equals("L")) return 50;
+		else if(r.equals("C")) return 100;
 		else return a;
 		
 	}
