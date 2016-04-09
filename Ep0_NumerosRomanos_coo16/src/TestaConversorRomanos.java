@@ -624,4 +624,23 @@ public class TestaConversorRomanos {
 		
 		assertEquals(resultadoEsperado, resultado);
 	}
+	
+	@Test
+	public void converte_CD_para_400() {
+		
+		String romano = "CD";
+		int resultadoEsperado = 400;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_400_para_CD() {
+		
+		int arabico =400;
+		String resultadoEsperado = "CD";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
 }

@@ -1,7 +1,7 @@
 
 public class Conversor {
 
-	public static String [] ordemRomanos ={"C","XC","L","XL","X","IX","V","IV","I"};
+	public static String [] ordemRomanos ={"D","CD","C","XC","L","XL","X","IX","V","IV","I"};
 
 	public static int deRomanoParaArabico(String numeroRomano){
 		int arabico =0;
@@ -72,6 +72,7 @@ public class Conversor {
 		else if(r.equals("X")) return 10;
 		else if(r.equals("L")) return 50;
 		else if(r.equals("C")) return 100;
+		else if(r.equals("D")) return 500;
 		else return a;
 		
 	}
