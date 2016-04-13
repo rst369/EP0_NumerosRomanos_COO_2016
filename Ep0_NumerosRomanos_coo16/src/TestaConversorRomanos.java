@@ -643,4 +643,232 @@ public class TestaConversorRomanos {
 		
 		assertEquals(resultadoEsperado, resultado);
 	}
+	
+	@Test
+	public void converte_D_para_500() {
+		
+		String romano = "D";
+		int resultadoEsperado = 500;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_500_para_D() {
+		
+		int arabico =500;
+		String resultadoEsperado = "D";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_DC_para_600() {
+		
+		String romano = "DC";
+		int resultadoEsperado = 600;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_600_para_DC() {
+		
+		int arabico =600;
+		String resultadoEsperado = "DC";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_DCLXXXVIII_para_688() {
+		
+		String romano = "DCLXXXVIII";
+		int resultadoEsperado = 688;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_688_para_DCLXXXVIII() {
+		
+		int arabico =688;
+		String resultadoEsperado = "DCLXXXVIII";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_DCCCXCIX_para_899() {
+		
+		String romano = "DCCCXCIX";
+		int resultadoEsperado = 899;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_899_para_DCCCXCIX() {
+		
+		int arabico =899;
+		String resultadoEsperado = "DCCCXCIX";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_CM_para_900() {
+		
+		String romano = "CM";
+		int resultadoEsperado = 900;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_900_para_CM() {
+		
+		int arabico =900;
+		String resultadoEsperado = "CM";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_CMXCIX_para_999() {
+		
+		String romano = "CMXCIX";
+		int resultadoEsperado = 999;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_999_para_CMXCIX() {
+		
+		int arabico =999;
+		String resultadoEsperado = "CMXCIX";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_M_para_1000() {
+		
+		String romano = "M";
+		int resultadoEsperado = 1000;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_1000_para_M() {
+		
+		int arabico =1000;
+		String resultadoEsperado = "M";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_MM_para_2000() {
+		
+		String romano = "MM";
+		int resultadoEsperado = 2000;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_2000_para_MM() {
+		
+		int arabico =2000;
+		String resultadoEsperado = "MM";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_MMM_para_3000() {
+		
+		String romano = "MMM";
+		int resultadoEsperado = 3000;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_3000_para_MMM() {
+		
+		int arabico =3000;
+		String resultadoEsperado = "MMM";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	
+	@Test
+	public void converte_MMXVI_para_2016() {
+		
+		String romano = "MMXVI";
+		int resultadoEsperado = 2016;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_2016_para_MMXVI() {
+		
+		int arabico =2016;
+		String resultadoEsperado = "MMXVI";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_MCMXCI_para_1991() {
+		
+		String romano = "MCMXCI";
+		int resultadoEsperado = 1991;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_1991_para_MCMXCI() {
+		
+		int arabico =1991;
+		String resultadoEsperado = "MCMXCI";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
+	@Test
+	public void converte_MCMVIII_para_1908() {
+		
+		String romano = "MCMVIII";
+		int resultadoEsperado = 1908;
+		int resultado = Conversor.deRomanoParaArabico(romano);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
+	@Test
+	public void converte_1908_para_MCMVIII() {
+		
+		int arabico =1908;
+		String resultadoEsperado = "MCMVIII";
+		String resultado = Conversor.deArabicoParaRomano(arabico);
+		
+		assertEquals(resultadoEsperado, resultado);
+	}
 }
